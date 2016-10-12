@@ -1,8 +1,6 @@
-# 按照旧版教程来的，可能有地方不兼容所以运行不了
-
 from scrapy.spiders import CrawlSpider, Rule
 from PatrickScrape.items import Article
-from scrapy.linkextractors.sgml import SgmlLinkExtractor
+from scrapy.linkextractors import LinkExtractor
 
 
 class ArticleSpiderPlus(CrawlSpider):
@@ -16,9 +14,10 @@ class ArticleSpiderPlus(CrawlSpider):
     # SgmlLinkExtractor allow里面是正则
     # callback是用来调用string所指代的函数
     # follow指定了是否跟进response获得的链接
-    rules = [Rule(SgmlLinkExtractor(allow=('(/wiki/)((?!:).)*$'), ), callback='parse_item', follow=True)]
+    rules = [Rule(LinkExtractor(allow=('(/wiki/)((?!:).)*$'), ), callback='parse_item', follow=True)]
 
     def parse_item(self, response):
+        item = Article()
         title = response.xpath('//h1/text()')[0].extract()
         print('Title is:' + title)
         # 然后把获得的信息储存在类似于数据库的item中
