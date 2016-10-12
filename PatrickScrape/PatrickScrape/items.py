@@ -12,5 +12,5 @@ import scrapy
 class Article(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-　　　　# 相当于数据库中的行元素
+    # 相当于数据库中的行元素
     title = scrapy.Field()

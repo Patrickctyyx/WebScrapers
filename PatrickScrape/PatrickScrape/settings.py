@@ -14,6 +14,8 @@ BOT_NAME = 'PatrickScrape'
 SPIDER_MODULES = ['PatrickScrape.spiders']
 NEWSPIDER_MODULE = 'PatrickScrape.spiders'
 
+LOG_LEVEL = 'ERROR'
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'PatrickScrape (+http://www.yourdomain.com)'
