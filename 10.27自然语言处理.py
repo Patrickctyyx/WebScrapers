@@ -1,13 +1,12 @@
 from urllib.request import urlopen
-from bs4 import BeautifulSoup
-from collections import OrderedDict
 import re
 import string
+import operator
 
 
-def ngarms(input_content, n):
+def ngramOutput(input_content, n):
     # 用正则把换行符去掉，＋号是匹配0到多次
-    input_content = re.sub('\n+', ' ', input_content)
+    input_content = re.sub('\n+', ' ', input_content).lower()
     # 去掉形如[88]这种注释，*号是匹配1到多次
     input_content = re.sub('\[[0-9]\]*', '', input_content)
     # 把很多空格缩减成一个
@@ -23,18 +22,20 @@ def ngarms(input_content, n):
         # 一个的字符都要过滤掉除了I A
         if len(item) > 1 or (item.lower() == 'a' or item.lower() == 'i'):
             cleanInput.append(item)
-    output = []
+    output = {}
+    # 统计每个词出现的频率
     for i in range(len(cleanInput) - n + 1):
-        output.append(cleanInput[i: i + n])
+        ngramTemp = ' '.join(cleanInput[i: i + n])
+        if ngramTemp not in output:
+            output[ngramTemp] = 0
+        output[ngramTemp] += 1
     return output
 
-html = urlopen('http://en.wikipedia.org/wiki/Python_(programming_language)')
-bsObj = BeautifulSoup(html, 'lxml')
-content = bsObj.find('div', {'id': 'mw-content-text'}).get_text()
-ngarm = ngarms(content, 2)
-# OrderedDict是让dict有序
-# sorted()第一个参数是一个可迭代对象,key是搜索的规则，比如这里是根据数组里面第二个元素排序，但是在这个的情景下有问题
-# 当然刻可以自定义一个函数不一定要用匿名函数，当然返回值要能作为排序的条件
-ngarm = OrderedDict(sorted(ngarm, key=lambda t: t[1], reverse=True))
-print(ngarm)
-print('3-grams count: ' + str(len(ngarm)))
+content = str(urlopen('http://pythonscraping.com/files/inaugurationSpeech.txt').read(),
+              'utf-8')
+ngrams = ngramOutput(content, 2)
+# operator.itemgetter相当于定义了一个函数
+# 这个函数返回这个项目的第1个值，在这里是这样的，取决于参数
+# 当然根据伤一次的key这里就是要跟一个函数来确定筛选的方法
+sortedNgrams = sorted(ngrams.items(), key=operator.itemgetter(1), reverse=True)
+print(sortedNgrams)
