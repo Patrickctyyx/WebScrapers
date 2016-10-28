@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - patscraper@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="patscraper">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="cty"/>
+    <schema id="3" name="information_schema"/>
+    <schema id="4" name="mysql"/>
+    <schema id="5" name="performance_schema"/>
+    <schema id="6" name="sys"/>
+    <table id="7" parent="1" name="links"/>
+    <table id="8" parent="1" name="pages"/>
+    <table id="9" parent="1" name="pages_2"/>
+    <column id="10" parent="7" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="11" parent="7" name="from_page_id">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="12" parent="7" name="to_page_id">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="13" parent="7" name="created_at">
+      <mandatory>1</mandatory>
+      <data-type>timestamp|0</data-type>
+      <default-expression>CURRENT_TIMESTAMP</default-expression>
+    </column>
+    <key id="14" parent="7" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="15" parent="8" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="16" parent="8" name="title">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="17" parent="8" name="content">
+      <data-type>varchar(10000)|0</data-type>
+    </column>
+    <column id="18" parent="8" name="created_at">
+      <mandatory>1</mandatory>
+      <data-type>timestamp|0</data-type>
+      <default-expression>CURRENT_TIMESTAMP</default-expression>
+    </column>
+    <key id="19" parent="8" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="20" parent="9" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="21" parent="9" name="url">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="22" parent="9" name="created_at">
+      <mandatory>1</mandatory>
+      <data-type>timestamp|0</data-type>
+      <default-expression>CURRENT_TIMESTAMP</default-expression>
+    </column>
+    <key id="23" parent="9" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - @localhost" uuid="99ceae24-813c-4c8c-980e-ad7673eb961d">
+      <database-info product="MySQL" version="5.7.13-0ubuntu0.16.04.2" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>:</introspection-scope>
+      <resolve-scope>:</resolve-scope>
+    </data-source>
+    <data-source name="MySQL - patscraper@localhost" uuid="4a64cbe1-ce0c-449b-8a27-77f84467ef38">
+      <database-info product="MySQL" version="5.7.13-0ubuntu0.16.04.2" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>patscraper:</introspection-scope>
+      <resolve-scope>patscraper:</resolve-scope>
+    </data-source>
+  </component>
+</project>
