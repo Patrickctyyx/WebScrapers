@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bc50e62-3b4b-4d09-98c4-ac43e6bba466" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11.2 填坑京东价格比较.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/(留坑)京东价格比较.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.24这是一个分界线.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.27马尔可夫模型.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.31提交表单.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.31登录与cookie(1).py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.31登录与cookie(2).py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.31登录与cookie(3).py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/10.25数据清洗.py" afterPath="$PROJECT_DIR$/10.25 数据清洗.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/10.27自然语言处理.py" afterPath="$PROJECT_DIR$/10.27 自然语言处理.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/10.28广度优先与维基百科六度分割.py" afterPath="$PROJECT_DIR$/10.28 广度优先与维基百科六度分割.py" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/视频/JNUGeek/.gitignore" afterPath="$USER_HOME$/视频/JNUGeek/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/WebScrapers.iml" afterPath="$PROJECT_DIR$/.idea/WebScrapers.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebScrapers.iws" />
     <ignored path=".idea/workspace.xml" />
