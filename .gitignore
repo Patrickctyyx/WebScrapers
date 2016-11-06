@@ -1,4 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
 
-ghostdriver.log
+*.log
+将删除 "11.6 \344\273\216\347\275\221\347\253\231\345\233\276\347\211\207\344\270\255\346\212\223\345\217\226\346\226\207\345\255\227.py"
+将删除 geckodriver.log
