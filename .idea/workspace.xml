@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bc50e62-3b4b-4d09-98c4-ac43e6bba466" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/视频/JNUGeek/admin.py" afterPath="$USER_HOME$/视频/JNUGeek/admin.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/视频/JNUGeek/api/auth/userinfo.py" afterPath="$USER_HOME$/视频/JNUGeek/api/auth/userinfo.py" />
     </list>
     <ignored path="WebScrapers.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,54 +56,18 @@
       <file leaf-file-name="init.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/视频/JNUGeek/common/init.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2599">
+            <state relative-caret-position="-66">
               <caret line="113" column="87" selection-start-line="113" selection-start-column="87" selection-end-line="113" selection-end-column="87" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="11.10 测试维基百科.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11.10 测试维基百科.py">
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/视频/JNUGeek/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="11.10 测试维基百科(2).py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/11.10 测试维基百科(2).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userinfo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/视频/JNUGeek/api/auth/userinfo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1334">
-              <caret line="65" column="62" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
-              <folding>
-                <element signature="e#42#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_fullmn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/视频/JNUGeek/api/auth/get_fullmn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="23">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -111,18 +76,8 @@
       <file leaf-file-name="user.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/视频/JNUGeek/common/models/user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1840">
+            <state relative-caret-position="23">
               <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="error.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/视频/JNUGeek/common/error.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1587">
-              <caret line="69" column="41" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -140,7 +95,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/视频/JNUGeek" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -168,7 +123,6 @@
         <option value="$USER_HOME$/视频/JNUGeek/common/models/.gitignore" />
         <option value="$USER_HOME$/视频/JNUGeek/common/.gitignore" />
         <option value="$USER_HOME$/视频/JNUGeek/common/config.py" />
-        <option value="$USER_HOME$/视频/JNUGeek/admin.py" />
         <option value="$USER_HOME$/视频/JNUGeek/api/admin/__init__.py" />
         <option value="$USER_HOME$/视频/JNUGeek/api/auth/__init__.py" />
         <option value="$USER_HOME$/视频/JNUGeek/api/guest/__init__.py" />
@@ -189,13 +143,14 @@
         <option value="$USER_HOME$/视频/JNUGeek/common/models/user.py" />
         <option value="$USER_HOME$/视频/JNUGeek/api/auth/account.py" />
         <option value="$USER_HOME$/视频/JNUGeek/api/auth/login.py" />
-        <option value="$USER_HOME$/视频/JNUGeek/api/auth/userinfo.py" />
         <option value="$USER_HOME$/视频/JNUGeek/templates/userinfo.html" />
         <option value="$PROJECT_DIR$/11.9 避免蜜罐.py" />
         <option value="$USER_HOME$/视频/JNUGeek/common/init.py" />
         <option value="$PROJECT_DIR$/11.10 单元测试.py" />
         <option value="$PROJECT_DIR$/11.10 测试维基百科.py" />
         <option value="$PROJECT_DIR$/11.10 测试维基百科(2).py" />
+        <option value="$USER_HOME$/视频/JNUGeek/api/auth/userinfo.py" />
+        <option value="$USER_HOME$/视频/JNUGeek/admin.py" />
       </list>
     </option>
   </component>
@@ -206,9 +161,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="54" />
-    <option name="width" value="960" />
-    <option name="height" value="923" />
+    <option name="y" value="24" />
+    <option name="width" value="1920" />
+    <option name="height" value="981" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -250,7 +205,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebScrapers" />
+              <option name="myItemId" value="JNUGeek" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -668,10 +623,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="54" width="960" height="923" extended-state="0" />
+    <frame x="0" y="24" width="1920" height="981" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37199125" sideWeight="0.4955947" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1814301" sideWeight="0.4955947" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924226" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1010,22 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/视频/JNUGeek/common/models/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1840">
-          <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/视频/JNUGeek/common/error.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1587">
-          <caret line="69" column="41" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/视频/JNUGeek/templates/userinfo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1044,16 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-503">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/视频/JNUGeek/api/auth/userinfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="65" column="62" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
-          <folding>
-            <element signature="e#42#73#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1096,22 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/视频/JNUGeek/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/视频/JNUGeek/common/init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2599">
-          <caret line="113" column="87" selection-start-line="113" selection-start-column="87" selection-end-line="113" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11.10 测试维基百科.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1129,6 +1042,48 @@
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/视频/JNUGeek/common/error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="69" column="41" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/视频/JNUGeek/common/models/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/视频/JNUGeek/api/auth/userinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding>
+            <element signature="e#42#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/视频/JNUGeek/common/init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="113" column="87" selection-start-line="113" selection-start-column="87" selection-end-line="113" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/视频/JNUGeek/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="14" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
