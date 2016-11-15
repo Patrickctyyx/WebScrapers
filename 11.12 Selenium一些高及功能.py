@@ -1,6 +1,5 @@
 from selenium import webdriver
 from selenium.webdriver import ActionChains
-import time
 
 driver = webdriver.PhantomJS(executable_path='/home/patrick/phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
 driver.get('http://pythonscraping.com/pages/javascript/draggableDemo.html')
